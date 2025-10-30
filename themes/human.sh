@@ -145,4 +145,4 @@ fancygit_theme_builder() {
 
 # Here's where the magic happens!
 # It calls our main function (fancygit_theme_builder) in order to mount a beautiful PS1 prompt =D
-PROMPT_COMMAND="fancygit_theme_builder"
+PROMPT_COMMAND="fancygit_theme_builder;$PROMPT_COMMAND"

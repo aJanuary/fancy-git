@@ -2,6 +2,9 @@
 
 > Any trouble, please visit the [troubleshooting page](https://github.com/diogocavilha/fancy-git/blob/master/TROUBLESHOOTING.md)
 
+## v7.7.0
+- Stop it overriding the existing `PROMPT_COMMAND` environment variable.
+
 ## v7.6.1
 - Fix shellcheck issues.
 
